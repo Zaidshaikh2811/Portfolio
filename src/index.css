@@ -133,8 +133,8 @@ h4 {
 .About-info {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 10px 30px;
 }
 
@@ -148,7 +148,7 @@ h4 {
   /* grid-template-columns: repeat(3, 1fr); */
   /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 2rem;
   margin-bottom: 10px;
 }
