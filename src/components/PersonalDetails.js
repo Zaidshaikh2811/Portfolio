@@ -1,7 +1,6 @@
 import React from "react";
 
 const Personal_Details = ({ name, Logo, value }) => {
-  console.log(Logo);
   return (
     <>
       <div className="Personal-Info">

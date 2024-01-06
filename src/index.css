@@ -10,6 +10,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  display: flex;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 .Heading {
   width: 90vw;
   margin: auto;
@@ -58,8 +71,8 @@ body {
   padding: 5px;
 }
 .Social-Links {
-  text-decoration: none; /* Remove underline for the link */
-  color: black; /* Set the text color to black */
+  text-decoration: none;
+  color: black;
 }
 
 .Personal-Info {
@@ -101,9 +114,69 @@ body {
   border-radius: 10px;
   margin: auto;
 }
+
+/* About-Mr */
+.About-Me {
+  width: 60vw;
+  height: 75vh;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.What-I-Do {
+  display: grid;
+  padding: 10px 30px;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.About-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 10px 30px;
+}
+
+/* Navbar */
+.Navbar {
+  height: fit-content;
+  width: 60vw;
+  list-style: none;
+  margin: auto;
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  margin-bottom: 10px;
+}
+.navbar-link {
+  background-color: #ff9c1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.Profession {
+  display: grid;
+  font-size: medium;
+  text-align: left;
+  grid-template-rows: 1fr auto;
+}
 @media (max-width: 1200px) {
   .Info {
     width: 30vw;
+    margin-left: 3vw;
+  }
+  .App {
+    width: 95vw;
+    justify-content: space-between;
   }
 }
 
@@ -112,6 +185,10 @@ body {
     justify-content: center;
     margin: auto;
     width: 50vw;
+  }
+  .App {
+    grid-template-columns: auto;
+    justify-content: center;
   }
 }
 
