@@ -112,18 +112,18 @@ export const navbar = [
 export const profession = [
   {
     name: "Web Development",
-    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur quidem voluptatum? Maiores quos vitae tempore non impedit quas nihil?",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur quidem voluptatum? Maiores quos vitae tempore non impedit quas nihil?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore perferendis dolor voluptatem molestiae repudiandae aliquid repellendus reiciendis quidem est soluta.",
   },
   {
     name: "App Development",
-    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur quidem voluptatum? Maiores quos vitae tempore non impedit quas nihil?",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur quidem voluptatum? Maiores quos vitae tempore non impedit quas nihil?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore perferendis dolor voluptatem molestiae repudiandae aliquid repellendus reiciendis quidem est soluta.",
   },
   {
     name: "UI/UX Designing",
-    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur quidem voluptatum? Maiores quos vitae tempore non impedit quas nihil?",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur quidem voluptatum? Maiores quos vitae tempore non impedit quas nihil?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore perferendis dolor voluptatem molestiae repudiandae aliquid repellendus reiciendis quidem est soluta.",
   },
   {
     name: "MentorShip",
-    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur quidem voluptatum? Maiores quos vitae tempore non impedit quas nihil?",
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur quidem voluptatum? Maiores quos vitae tempore non impedit quas nihil?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore perferendis dolor voluptatem molestiae repudiandae aliquid repellendus reiciendis quidem est soluta.",
   },
 ];
