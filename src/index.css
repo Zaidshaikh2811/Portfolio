@@ -114,3 +114,11 @@ body {
     width: 50vw;
   }
 }
+
+@media (max-width: 530px) {
+  .Info {
+    width: 85vw;
+    justify-content: center;
+    margin: auto;
+  }
+}
