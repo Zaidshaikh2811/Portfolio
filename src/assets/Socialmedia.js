@@ -1,7 +1,4 @@
 import { FaFacebookF, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
-import { IoPhonePortraitOutline } from "react-icons/io5";
-import { CiLocationOn } from "react-icons/ci";
-import { MdOutlineEmail } from "react-icons/md";
 
 export const links = [
   {

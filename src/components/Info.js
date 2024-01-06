@@ -1,8 +1,8 @@
 import React from "react";
 import image from "./OIP.jpeg";
-import { links, Personal } from "../assets/Social-media";
+import { links, Personal } from "../assets/Socialmedia";
 import Links from "./Links";
-import Personal_Details from "./Personal_Details";
+import PersonalDetails from "./PersonalDetails";
 const Info = () => {
   return (
     <div className="Info">
@@ -19,7 +19,7 @@ const Info = () => {
       </div>
       <div className="Personal-details">
         {Personal.map((item, index) => {
-          return <Personal_Details key={index} {...item}></Personal_Details>;
+          return <PersonalDetails key={index} {...item}></PersonalDetails>;
         })}
         <button type="button" className="btn">
           {" "}
