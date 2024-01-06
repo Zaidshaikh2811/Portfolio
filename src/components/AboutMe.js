@@ -18,7 +18,7 @@ const AboutMe = () => {
       </div>
       <div className="What-I-Do">
         {profession.map((item, index) => {
-          return <Profession {...item}></Profession>;
+          return <Profession key={index} {...item}></Profession>;
         })}
       </div>
     </div>
