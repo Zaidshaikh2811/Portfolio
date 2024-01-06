@@ -190,6 +190,9 @@ h4 {
     grid-template-columns: auto;
     justify-content: center;
   }
+  .Navbar {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 530px) {
@@ -197,5 +200,11 @@ h4 {
     width: 85vw;
     justify-content: center;
     margin: auto;
+  }
+
+  .About-Me {
+    width: 85vw;
+    height: fit-content;
+    padding: 0px 2vw;
   }
 }
