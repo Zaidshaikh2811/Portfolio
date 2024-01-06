@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  background-color: #f2f5f9;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Heading {
+  width: 90vw;
+  margin: auto;
+  font-family: "Pacifico", cursive;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Heading span {
+  color: #ff9c1a;
+}
+
+.Dark-mode {
+  cursor: pointer;
+}
+.user-image {
+  height: 248px;
+  border-radius: 50%;
+}
+.Info {
+  margin-left: 5vw;
+
+  width: 20vw;
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+  grid-template-columns: 1fr;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid black;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.Social-media {
+  display: grid;
+  /* width: 20vw; */
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+}
+
+.Links {
+  background-color: #f2f7fc;
+  /* background-color: black; */
+  width: 25px;
+  padding: 5px;
+}
+.Social-Links {
+  text-decoration: none; /* Remove underline for the link */
+  color: black; /* Set the text color to black */
+}
+
+.Personal-Info {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr;
+  margin: 0px;
+  padding: 0px;
+}
+.Personal-Info img {
+  height: 50px;
+  width: 50px;
+}
+
+.line {
+  height: 2px;
+  width: 100vw;
+  background-color: black;
+}
+
+.btn {
+  font-size: 0.8em;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  background: none;
+  color: inherit;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  letter-spacing: 0.1rem;
+}
+.Personal-details {
+  width: 80%;
+  background-color: #f2f5f9;
+  padding: 5px;
+  border-radius: 10px;
+  margin: auto;
+}
+@media (max-width: 1200px) {
+  .Info {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 790px) {
+  .Info {
+    justify-content: center;
+    margin: auto;
+    width: 50vw;
+  }
+}
