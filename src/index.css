@@ -26,12 +26,12 @@ body {
   cursor: pointer;
 }
 .user-image {
+  /* transform: translateY(-100px); */
   height: 248px;
   border-radius: 50%;
 }
 .Info {
   margin-left: 5vw;
-
   width: 20vw;
   display: grid;
   gap: 1rem;
