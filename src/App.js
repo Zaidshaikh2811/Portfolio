@@ -6,6 +6,7 @@ import Info from "./components/Info";
 import Contact from "./components/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
             </Routes>
           </Router>
         </div>
+        <Footer></Footer>
       </div>
     </>
   );

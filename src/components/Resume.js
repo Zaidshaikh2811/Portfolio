@@ -1,6 +1,8 @@
 import React from "react";
 import Profession from "./Profession";
 import { education, experience } from "../assets/Socialmedia";
+import Skills from "./Skills";
+import { work_skills, soft_skills } from "../assets/Socialmedia";
 const Resume = () => {
   return (
     <div className="About-Me">
@@ -40,6 +42,24 @@ const Resume = () => {
             <div className="What-I-Do">
               {experience.map((item, index) => {
                 return <Profession key={index} {...item} />;
+              })}
+            </div>
+          </div>
+        </div>
+        <div className="skills">
+          <div className="What-I-Do">
+            <h1>Work Skills</h1>
+            <div className="work_skills">
+              {work_skills.map((item, index) => {
+                return <Skills key={index} item={item}></Skills>;
+              })}
+            </div>
+          </div>
+          <div className="What-I-Do">
+            <h3>Soft Skills</h3>
+            <div className="work_skills">
+              {soft_skills.map((item, index) => {
+                return <Skills key={index} item={item}></Skills>;
               })}
             </div>
           </div>

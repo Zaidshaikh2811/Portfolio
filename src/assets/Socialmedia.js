@@ -138,3 +138,26 @@ export const experience = [
   { name: "Technical Mentor", info: "Morninga School" },
   { name: "Website Development", info: "Village 2 Nation" },
 ];
+
+export const work_skills = [
+  "HTML",
+  "CSS",
+  "Tailwind",
+  "REACT",
+  "JAVASCRIPT",
+  "C",
+  "C++",
+  "JAVA",
+  "PYTHON",
+];
+export const soft_skills = [
+  "HTML",
+  "CSS",
+  "Tailwind",
+  "REACT",
+  "JAVASCRIPT",
+  "C",
+  "C++",
+  "JAVA",
+  "PYTHON",
+];
