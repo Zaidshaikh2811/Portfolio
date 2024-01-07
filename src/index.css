@@ -71,6 +71,8 @@ h4 {
 }
 
 .Social-media {
+  width: 80%;
+  margin: auto;
   display: grid;
   height: fit-content;
   /* width: 20vw; */
