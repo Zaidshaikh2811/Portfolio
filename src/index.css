@@ -76,7 +76,7 @@ h4 {
   display: grid;
   height: fit-content;
   /* width: 20vw; */
-  gap: 2rem;
+  /* gap: 1rem; */
   grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
 }
 
