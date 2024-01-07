@@ -3,8 +3,9 @@ import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
 import Heading from "./components/Heading";
 import Info from "./components/Info";
-
+import Contact from "./components/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Resume from "./components/Resume";
 function App() {
   return (
     <>
@@ -12,11 +13,13 @@ function App() {
       <div className="App">
         <Info></Info>
         <div>
-          <Navbar />
           <Router>
+            {/* <Navbar /> */}
             <Routes>
-              <Route path="/">
-                <Route index element={<AboutMe />}></Route>
+              <Route path="/" element={<Navbar />}>
+                <Route index path="/" element={<AboutMe></AboutMe>}></Route>
+                <Route path="/Resume" element={<Resume></Resume>}></Route>
+                <Route path="/Contact" element={<Contact></Contact>}></Route>
               </Route>
             </Routes>
           </Router>

@@ -78,6 +78,7 @@ export const navbar = [
         <path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
       </svg>
     ),
+    path: "/",
   },
   {
     name: "Contact",
@@ -92,6 +93,7 @@ export const navbar = [
         <path d="M480-240q-56 0-107 17.5T280-170v10h400v-10q-42-35-93-52.5T480-240Zm-280 34q54-53 125.5-83.5T480-320q83 0 154.5 30.5T760-206v-514H200v514Zm280-194q-58 0-99-41t-41-99q0-58 41-99t99-41q58 0 99 41t41 99q0 58-41 99t-99 41Zm0-80q25 0 42.5-17.5T540-540q0-25-17.5-42.5T480-600q-25 0-42.5 17.5T420-540q0 25 17.5 42.5T480-480ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm280-460Zm0 380h200-400 200Z" />
       </svg>
     ),
+    path: "/Contact",
   },
   {
     name: "Resume",
@@ -106,6 +108,7 @@ export const navbar = [
         <path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z" />
       </svg>
     ),
+    path: "/Resume",
   },
 ];
 
@@ -126,4 +129,12 @@ export const profession = [
     name: "MentorShip",
     info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur quidem voluptatum? Maiores quos vitae tempore non impedit quas nihil?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore perferendis dolor voluptatem molestiae repudiandae aliquid repellendus reiciendis quidem est soluta.",
   },
+];
+export const education = [
+  { name: "Software Development", info: "Morninga School" },
+  { name: "Disaster Management", info: "Masinde Muliro University" },
+];
+export const experience = [
+  { name: "Technical Mentor", info: "Morninga School" },
+  { name: "Website Development", info: "Village 2 Nation" },
 ];
