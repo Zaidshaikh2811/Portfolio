@@ -194,11 +194,14 @@ h4 {
   padding: 10px 20px;
   background-color: #ffebd1;
 }
-.Profession h3 {
+.Profession h3,
+.title h3 {
   font-weight: bold;
   font-size: 1.5rem;
 }
-
+.title {
+  padding: 10px 30px;
+}
 /* REsume */
 .Resume-work {
   display: grid;
@@ -260,6 +263,16 @@ h4 {
   .Navbar {
     justify-content: center;
   }
+  .About-Me {
+    width: 90vw;
+    border: 2px solid red;
+  }
+  .Resume-work {
+    grid-template-columns: 250px 250px;
+  }
+  .Profession {
+    width: 200px;
+  }
 }
 
 @media (max-width: 530px) {
@@ -270,12 +283,16 @@ h4 {
   }
 
   .About-Me {
-    width: 85vw;
+    width: 70vw;
     height: fit-content;
     padding: 0px 2vw;
   }
   .What-I-Do {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* grid-template-columns: auto a; */
+  }
+  .Profession {
+    width: 200px;
   }
   .Resume-work {
     grid-template-columns: auto;
