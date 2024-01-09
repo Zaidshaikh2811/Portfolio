@@ -161,6 +161,17 @@ h4 {
   padding: 0px;
 }
 /* Navbar */
+
+.your-element {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.your-element.active {
+  background-color: #ff9c1a; /* Change to your desired active state background color */
+  color: #fff; /* Change to your desired active state text color */
+}
 .Navbar {
   height: fit-content;
   width: 60vw;
@@ -175,7 +186,7 @@ h4 {
   margin-bottom: 10px;
 }
 .navbar-link {
-  background-color: #ff9c1a;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -205,6 +216,7 @@ h4 {
 .title {
   padding: 10px 30px;
 }
+
 /* REsume */
 .Resume-work {
   display: grid;
@@ -240,6 +252,17 @@ h4 {
   grid-template-columns: auto auto auto;
   gap: 10px;
 }
+
+.Fotter {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: #ff9c1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 1200px) {
   .Info {
     width: 30vw;
