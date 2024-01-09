@@ -68,7 +68,7 @@ const Contact = () => {
             />
           </label>
           <br />
-          <hr />
+          {/* <hr /> */}
           <label className="contact-form">
             Last Name:
             <input
@@ -80,7 +80,7 @@ const Contact = () => {
             />
           </label>
           <br />
-          <hr />
+          {/* <hr /> */}
           <label className="contact-form">
             Email:
             <input
@@ -91,8 +91,8 @@ const Contact = () => {
               onChange={handleChange}
             />
           </label>
+          {/* <hr /> */}
           <br />
-          <hr />
           <button className="btn" type="submit">
             Submit
           </button>
