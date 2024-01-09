@@ -4,7 +4,7 @@ const Profession = ({ name, info, logo }) => {
   return (
     <div className="Profession">
       <h3>
-        <span>{logo}</span>
+        {logo}
         {name}
       </h3>
       {info}

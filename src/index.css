@@ -221,12 +221,16 @@ h4 {
   grid-template-rows: auto auto;
   border-radius: 20px;
   padding: 10px 20px;
+
   background-color: #ffebd1;
 }
 .Profession h3,
 .title h3 {
   font-weight: bold;
   font-size: 1.5rem;
+  /* display: grid;
+  align-items: center;
+  grid-template-columns: 30px auto; */
 }
 .title {
   padding: 10px 30px;
@@ -235,6 +239,7 @@ h4 {
 /* REsume */
 .Resume-work {
   display: grid;
+  /* align-items: center; */
   gap: 10px;
   grid-template-columns: auto auto;
 }
@@ -294,13 +299,17 @@ input:focus {
 
 .Fotter {
   /* position: fixed; */
-  bottom: 0;
+  /* bottom: 0;
   width: 100vw;
   margin-top: 20px;
   background-color: #ff9c1a;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  background-color: #ff9c1a; /* Change to your desired background color */
+  color: #fff; /* Change to your desired text color */
+  padding: 10px;
+  text-align: center;
 }
 
 @media (max-width: 1200px) {
