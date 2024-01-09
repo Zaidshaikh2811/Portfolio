@@ -1,9 +1,12 @@
 import React from "react";
 
-const Profession = ({ name, info }) => {
+const Profession = ({ name, info, logo }) => {
   return (
     <div className="Profession">
-      <h3>{name}</h3>
+      <h3>
+        <span>{logo}</span>
+        {name}
+      </h3>
       {info}
     </div>
   );

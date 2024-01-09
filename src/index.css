@@ -113,6 +113,7 @@ h4 {
 
 .btn {
   font-size: 0.8em;
+  padding: 10px;
   cursor: pointer;
   white-space: nowrap;
   outline: none;
@@ -124,10 +125,13 @@ h4 {
   position: relative;
   letter-spacing: 0.1rem;
 }
+.btn:hover {
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.6);
+}
 .Personal-details {
   width: 80%;
   background-color: #f2f5f9;
-  padding: 5px;
+  padding: 15px;
   border-radius: 10px;
   margin: auto;
 }
@@ -223,7 +227,25 @@ h4 {
   gap: 10px;
   grid-template-columns: auto auto;
 }
-
+.contact-form {
+  /* margin-bottom: 1rem; */
+  display: grid;
+  grid-template-columns: 100px auto;
+  gap: 1rem;
+  /* display: flex; */
+}
+.section {
+  padding: 10px 30px;
+}
+.input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+input:focus {
+  box-shadow: 0 0 5px rgba(255, 123, 0, 0.5);
+}
 .experience {
   display: grid;
   align-items: center;
@@ -297,7 +319,7 @@ h4 {
   }
   .About-Me {
     width: 95vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   .Resume-work {
     grid-template-columns: auto auto;
