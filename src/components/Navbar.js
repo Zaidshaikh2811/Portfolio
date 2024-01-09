@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { navbar } from "../assets/Socialmedia";
 import { Link, Outlet } from "react-router-dom";
-import Links from "./Links";
 const Navbar = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
