@@ -21,7 +21,7 @@ const Resume = () => {
               </svg>
               <h3>Education</h3>
             </div>
-            <div className="What-I-Do">
+            <div className="What-I-Do p-0">
               {education.map((item, index) => {
                 return <Profession key={index} {...item} />;
               })}
@@ -39,7 +39,7 @@ const Resume = () => {
               </svg>
               <h3>Experience</h3>
             </div>
-            <div className="What-I-Do">
+            <div className="What-I-Do p-0">
               {experience.map((item, index) => {
                 return <Profession key={index} {...item} />;
               })}
@@ -47,7 +47,7 @@ const Resume = () => {
           </div>
         </div>
         <div className="skills">
-          <div className="What-I-Do">
+          <div className="What-I-Do p-0">
             <h1>Work Skills</h1>
             <div className="work_skills">
               {work_skills.map((item, index) => {
@@ -55,7 +55,7 @@ const Resume = () => {
               })}
             </div>
           </div>
-          <div className="What-I-Do">
+          <div className="What-I-Do p-0">
             <h3>Soft Skills</h3>
             <div className="work_skills">
               {soft_skills.map((item, index) => {
