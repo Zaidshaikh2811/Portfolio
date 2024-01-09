@@ -257,6 +257,7 @@ h4 {
   /* position: fixed; */
   bottom: 0;
   width: 100vw;
+  margin-top: 20px;
   background-color: #ff9c1a;
   display: flex;
   justify-content: center;
