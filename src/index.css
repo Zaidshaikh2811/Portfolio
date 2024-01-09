@@ -186,7 +186,7 @@ h4 {
 }
 
 .Profession {
-  max-width: 300px;
+  /* max-width: 300px; */
   display: grid;
   min-height: 100px;
   font-size: medium;
@@ -253,6 +253,11 @@ h4 {
   }
 }
 
+/* @media (max-width: 1130px) {
+  .What-I-Do {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+} */
 @media (max-width: 790px) {
   .Info {
     justify-content: center;
@@ -274,7 +279,7 @@ h4 {
     grid-template-columns: auto auto;
   }
   .Profession {
-    width: 200px;
+    /* width: 200px; */
   }
   .work_skills {
     grid-template-columns: auto auto;
@@ -298,7 +303,7 @@ h4 {
     /* grid-template-columns: auto a; */
   }
   .Profession {
-    width: 200px;
+    /* width: 200px; */
   }
   .Resume-work {
     grid-template-columns: auto;
