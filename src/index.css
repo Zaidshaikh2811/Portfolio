@@ -254,7 +254,7 @@ h4 {
 }
 
 .Fotter {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100vw;
   background-color: #ff9c1a;
