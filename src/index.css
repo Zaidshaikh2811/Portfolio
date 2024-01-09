@@ -316,6 +316,7 @@ input:focus {
   }
   .Navbar {
     justify-content: center;
+    margin-top: 30px;
   }
   .About-Me {
     width: 95vw;
