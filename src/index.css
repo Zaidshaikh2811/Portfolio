@@ -296,7 +296,7 @@ h4 {
     justify-content: center;
   }
   .About-Me {
-    width: 100vw;
+    width: 95vw;
     border: 2px solid red;
   }
   .Resume-work {
@@ -318,7 +318,7 @@ h4 {
   }
 
   .About-Me {
-    width: 95vw;
+    width: 90vw;
     height: fit-content;
     padding: 0px 2vw;
   }
