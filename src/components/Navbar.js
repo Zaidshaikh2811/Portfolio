@@ -3,7 +3,7 @@ import { navbar } from "../assets/Socialmedia";
 import { Link, Outlet } from "react-router-dom";
 import Links from "./Links";
 const Navbar = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const handleItemClick = (index) => {
     setActiveIndex(index);
