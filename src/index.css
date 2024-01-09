@@ -186,7 +186,7 @@ h4 {
 }
 
 .Profession {
-  /* max-width: 300px; */
+  max-width: 300px;
   display: grid;
   min-height: 100px;
   font-size: medium;
@@ -208,6 +208,7 @@ h4 {
 /* REsume */
 .Resume-work {
   display: grid;
+  gap: 10px;
   grid-template-columns: auto auto;
 }
 
